@@ -1,3 +1,6 @@
-C:\Users\User\eclipse-workspace\Tokopedia\src\test\java\Tokopedia\AppTest.java
-C:\Users\User\eclipse-workspace\Tokopedia\src\test\java\Tokopedia\cucumber_Runner\TestRunner.java
-C:\Users\User\eclipse-workspace\Tokopedia\src\test\java\Tokopedia\cucumber_StepDefinitions\Login_Tokped.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Tokopedia\Test\LoginTest.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Tokopedia\TestComponents\BaseTest.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Tokopedia\Test\SearchTest.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Cucumber\StepDefinitions\Login_Tokped.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Cucumber\Runner\TestRunner.java
+C:\Users\User\GitAutomation\Tokopedia\src\test\java\Tokopedia\Test\RegistrationTest.java
