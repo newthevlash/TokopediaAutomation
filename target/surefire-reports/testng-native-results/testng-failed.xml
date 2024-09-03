@@ -10,14 +10,6 @@
           <include name="launchApplication"/>
         </methods>
       </class> <!-- Tokopedia.Test.LoginTest -->
-      <class name="Tokopedia.Test.RegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="launchApplication"/>
-          <include name="validateRegistrationEmailorPhoneNull"/>
-          <include name="validateRegistrationinvalidphonenumbertolong"/>
-        </methods>
-      </class> <!-- Tokopedia.Test.RegistrationTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
