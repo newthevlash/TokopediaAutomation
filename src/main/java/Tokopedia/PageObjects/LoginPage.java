@@ -65,19 +65,14 @@ public class LoginPage {
 		return displayed;
 	}
 	
-	public boolean verifynoinputPassword()
+	public boolean verifyerrorinputPassword(String errorMessage)
 	{
 		String message = messageerrorpassword.getText();
-		boolean match = message.equalsIgnoreCase("Kata sandi harus diisi");
+		boolean match = message.equalsIgnoreCase(errorMessage);
 		return match;
 	}
 	
-	public boolean verifyinvalidinputPassword()
-	{
-		String message = messageerrorpassword.getText();
-		boolean match = message.equalsIgnoreCase("Email atau kata sandi salah");
-		return match;
-	}
+	
 	
 	public boolean verifyemailinvalidornotregister()
 	{

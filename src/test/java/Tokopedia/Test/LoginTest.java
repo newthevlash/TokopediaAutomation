@@ -27,7 +27,7 @@ public class LoginTest extends BaseTest{
 		loginPage.enterEmailorPhone("newthevlash15@gmail.com");
 		loginPage.click_btnSelanjutnya();
 		loginPage.click_btnMasuk();
-		boolean message = loginPage.verifynoinputPassword();
+		boolean message = loginPage.verifyerrorinputPassword("Kata sandi harus diisi");
 		Assert.assertTrue(message);
 	}
 	
@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest{
 		loginPage.click_btnSelanjutnya();
 		loginPage.enterPasword("dodododod213");
 		loginPage.click_btnMasuk();
-		boolean message = loginPage.verifyinvalidinputPassword();
+		boolean message = loginPage.verifyerrorinputPassword("Email atau kata sandi salah");
 		Assert.assertTrue(message);
 	}
 	

@@ -21,6 +21,9 @@ public class LandingPage {
 	@FindBy(css=".css-16r70d4")
 	WebElement btn_login;
 	
+	@FindBy(css=".css-6c86hb")
+	WebElement btn_daftar;
+	
 	@FindBy(css="input[placeholder='Cari di Tokopedia']")
 	WebElement input_search;
 	
@@ -42,6 +45,14 @@ public class LandingPage {
 		btn_login.click();
 		LoginPage loginPage = new LoginPage(driver);
 		return loginPage;
+	}
+	
+	public RegistPage goRegist()
+	{
+		btn_daftar.click();
+		RegistPage registPage = new RegistPage(driver);
+		return registPage;
+		
 	}
 	
 	public void goSearch(String product) throws InterruptedException
@@ -94,9 +105,13 @@ public class LandingPage {
 		Thread.sleep(2000);
 	}
 	
+	
+	
 	public void goTOLandingPage() 
 	{
 		driver.get("https://www.tokopedia.com/");
 	}
+	
+	
 	
 }

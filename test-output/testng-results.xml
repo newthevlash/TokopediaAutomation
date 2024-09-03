@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T20:57:39 WIB" name="Default suite" finished-at="2024-08-29T20:57:49 WIB" duration-ms="10285">
+  <suite started-at="2024-09-03T22:49:50 WIB" name="Default suite" finished-at="2024-09-03T22:50:59 WIB" duration-ms="68968">
     <groups>
     </groups>
-    <test started-at="2024-08-29T20:57:39 WIB" name="Default test" finished-at="2024-08-29T20:57:49 WIB" duration-ms="10285">
-      <class name="Tokopedia.Test.SearchTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@25ce9dc4]" started-at="2024-08-29T20:57:39 WIB" name="launchApplication" finished-at="2024-08-29T20:57:43 WIB" duration-ms="4110" status="PASS">
+    <test started-at="2024-09-03T22:49:50 WIB" name="Default test" finished-at="2024-09-03T22:50:59 WIB" duration-ms="68968">
+      <class name="Tokopedia.Test.RegistrationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:49:51 WIB" name="launchApplication" finished-at="2024-09-03T22:49:55 WIB" duration-ms="4137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC5_SearchCategorywithdetailproduct()[pri:0, instance:Tokopedia.Test.SearchTest@25ce9dc4]" started-at="2024-08-29T20:57:43 WIB" name="TC5_SearchCategorywithdetailproduct" finished-at="2024-08-29T20:57:49 WIB" duration-ms="5919" status="PASS">
+        <test-method signature="validateRegistration()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:49:55 WIB" name="validateRegistration" finished-at="2024-09-03T22:50:39 WIB" duration-ms="43942" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".css-280ezp"}
+  (Session info: chrome=128.0.6613.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e60de9dbf89995016f19f3e3520966d1, findElement {value=.css-280ezp, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.114, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61537/devtoo..., se:cdpVersion: 128.0.6613.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e60de9dbf89995016f19f3e3520966d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".css-280ezp"}
+  (Session info: chrome=128.0.6613.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e60de9dbf89995016f19f3e3520966d1, findElement {value=.css-280ezp, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.114, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61537/devtoo..., se:cdpVersion: 128.0.6613.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e60de9dbf89995016f19f3e3520966d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+at Tokopedia.PageObjects.RegistPage.verifykodeverifikasi(RegistPage.java:72)
+at Tokopedia.Test.RegistrationTest.validateRegistration(RegistrationTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC5_SearchCategorywithdetailproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@25ce9dc4]" started-at="2024-08-29T20:57:49 WIB" name="tearDown" finished-at="2024-08-29T20:57:49 WIB" duration-ms="202" status="PASS">
+        </test-method> <!-- validateRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:39 WIB" name="tearDown" finished-at="2024-09-03T22:50:39 WIB" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tokopedia.Test.SearchTest -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:39 WIB" name="launchApplication" finished-at="2024-09-03T22:50:42 WIB" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateRegistrationEmailorPhoneNull()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:42 WIB" name="validateRegistrationEmailorPhoneNull" finished-at="2024-09-03T22:50:44 WIB" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationEmailorPhoneNull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:44 WIB" name="tearDown" finished-at="2024-09-03T22:50:44 WIB" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:44 WIB" name="launchApplication" finished-at="2024-09-03T22:50:48 WIB" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateRegistrationinvalidEmail()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:48 WIB" name="validateRegistrationinvalidEmail" finished-at="2024-09-03T22:50:49 WIB" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationinvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:49 WIB" name="tearDown" finished-at="2024-09-03T22:50:49 WIB" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:49 WIB" name="launchApplication" finished-at="2024-09-03T22:50:53 WIB" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateRegistrationinvalidphonenumbertolong()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:53 WIB" name="validateRegistrationinvalidphonenumbertolong" finished-at="2024-09-03T22:50:54 WIB" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationinvalidphonenumbertolong -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:54 WIB" name="tearDown" finished-at="2024-09-03T22:50:54 WIB" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:54 WIB" name="launchApplication" finished-at="2024-09-03T22:50:58 WIB" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateRegistrationinvalidphonenumbertoshort()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:58 WIB" name="validateRegistrationinvalidphonenumbertoshort" finished-at="2024-09-03T22:50:59 WIB" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationinvalidphonenumbertoshort -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@8f2ef19]" started-at="2024-09-03T22:50:59 WIB" name="tearDown" finished-at="2024-09-03T22:50:59 WIB" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tokopedia.Test.RegistrationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

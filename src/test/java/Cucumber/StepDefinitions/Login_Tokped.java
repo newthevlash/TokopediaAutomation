@@ -79,6 +79,7 @@ public class Login_Tokped {
 	public void popup_error_message_under_password_field()
 	{
 		driver.findElement(By.cssSelector(".css-t9c9fq.erj7th78")).isDisplayed();
+		driver.close();
 	}
 	
 }
