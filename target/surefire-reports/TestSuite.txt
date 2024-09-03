@@ -1,8 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.862 s <<< FAILURE! - in TestSuite
-TC4_validateLoginUnseccessfullwithinvalidemail(Tokopedia.Test.LoginTest)  Time elapsed: 1.21 s  <<< FAILURE!
-java.lang.AssertionError
-	at Tokopedia.Test.LoginTest.TC4_validateLoginUnseccessfullwithinvalidemail(LoginTest.java:53)
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 99.608 s <<< FAILURE! - in TestSuite
+TC1_validateLoginSuccessFull(Tokopedia.Test.LoginTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC1_validateLoginSuccessFull(LoginTest.java:16)
+
+TC2_validateLoginUnsuccessfullwithNOPassword(Tokopedia.Test.LoginTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC2_validateLoginUnsuccessfullwithNOPassword(LoginTest.java:28)
+
+TC3_validateLoginUnseccessfullwithinvalidpassword(Tokopedia.Test.LoginTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC3_validateLoginUnseccessfullwithinvalidpassword(LoginTest.java:39)
+
+TC5_SearchCategorywithdetailproduct(Tokopedia.Test.SearchTest)  Time elapsed: 10.143 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Element must be set
+	at Tokopedia.Test.SearchTest.TC5_SearchCategorywithdetailproduct(SearchTest.java:46)
 

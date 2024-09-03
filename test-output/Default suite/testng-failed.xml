@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tokopedia.Test.RegistrationTest">
+      <class name="Tokopedia.Test.LoginTest">
         <methods>
           <include name="tearDown"/>
+          <include name="TC4_validateLoginUnseccessfullwithinvalidemail"/>
           <include name="launchApplication"/>
-          <include name="validateRegistration"/>
         </methods>
-      </class> <!-- Tokopedia.Test.RegistrationTest -->
+      </class> <!-- Tokopedia.Test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

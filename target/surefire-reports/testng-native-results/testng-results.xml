@@ -1,122 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-04T00:23:31 WIB" name="Surefire suite" finished-at="2024-09-04T00:25:02 WIB" duration-ms="91269">
+  <suite started-at="2024-09-04T00:41:26 WIB" name="Surefire suite" finished-at="2024-09-04T00:43:05 WIB" duration-ms="98892">
     <groups>
     </groups>
-    <test started-at="2024-09-04T00:23:31 WIB" name="Surefire test" finished-at="2024-09-04T00:25:02 WIB" duration-ms="91269">
+    <test started-at="2024-09-04T00:41:26 WIB" name="Surefire test" finished-at="2024-09-04T00:43:05 WIB" duration-ms="98892">
       <class name="Tokopedia.Test.SearchTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:23 WIB" name="launchApplication" finished-at="2024-09-04T00:24:27 WIB" duration-ms="3459" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:19 WIB" name="launchApplication" finished-at="2024-09-04T00:42:23 WIB" duration-ms="4213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC1_searchvalidProduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:27 WIB" name="TC1_searchvalidProduct" finished-at="2024-09-04T00:24:30 WIB" duration-ms="2606" status="PASS">
+        <test-method signature="TC1_searchvalidProduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:23 WIB" name="TC1_searchvalidProduct" finished-at="2024-09-04T00:42:26 WIB" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_searchvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:30 WIB" name="tearDown" finished-at="2024-09-04T00:24:30 WIB" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:26 WIB" name="tearDown" finished-at="2024-09-04T00:42:26 WIB" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:30 WIB" name="launchApplication" finished-at="2024-09-04T00:24:33 WIB" duration-ms="3565" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:26 WIB" name="launchApplication" finished-at="2024-09-04T00:42:31 WIB" duration-ms="4121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC2_searchinvalidProduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:33 WIB" name="TC2_searchinvalidProduct" finished-at="2024-09-04T00:24:36 WIB" duration-ms="2658" status="PASS">
+        <test-method signature="TC2_searchinvalidProduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:31 WIB" name="TC2_searchinvalidProduct" finished-at="2024-09-04T00:42:34 WIB" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_searchinvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:36 WIB" name="tearDown" finished-at="2024-09-04T00:24:36 WIB" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:34 WIB" name="tearDown" finished-at="2024-09-04T00:42:34 WIB" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:36 WIB" name="launchApplication" finished-at="2024-09-04T00:24:40 WIB" duration-ms="3799" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:34 WIB" name="launchApplication" finished-at="2024-09-04T00:42:38 WIB" duration-ms="3973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC3_Searchproductwithcategory()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:40 WIB" name="TC3_Searchproductwithcategory" finished-at="2024-09-04T00:24:44 WIB" duration-ms="4465" status="PASS">
+        <test-method signature="TC3_Searchproductwithcategory()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:38 WIB" name="TC3_Searchproductwithcategory" finished-at="2024-09-04T00:42:43 WIB" duration-ms="4741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_Searchproductwithcategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:44 WIB" name="tearDown" finished-at="2024-09-04T00:24:44 WIB" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:43 WIB" name="tearDown" finished-at="2024-09-04T00:42:43 WIB" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:44 WIB" name="launchApplication" finished-at="2024-09-04T00:24:48 WIB" duration-ms="3610" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:43 WIB" name="launchApplication" finished-at="2024-09-04T00:42:47 WIB" duration-ms="4588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC4_Searchproductwithsubcategoty()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:48 WIB" name="TC4_Searchproductwithsubcategoty" finished-at="2024-09-04T00:24:53 WIB" duration-ms="5161" status="PASS">
+        <test-method signature="TC4_Searchproductwithsubcategoty()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:47 WIB" name="TC4_Searchproductwithsubcategoty" finished-at="2024-09-04T00:42:53 WIB" duration-ms="5437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_Searchproductwithsubcategoty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:53 WIB" name="tearDown" finished-at="2024-09-04T00:24:53 WIB" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:53 WIB" name="tearDown" finished-at="2024-09-04T00:42:53 WIB" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:53 WIB" name="launchApplication" finished-at="2024-09-04T00:24:57 WIB" duration-ms="3584" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:53 WIB" name="launchApplication" finished-at="2024-09-04T00:42:55 WIB" duration-ms="2261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TC5_SearchCategorywithdetailproduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:24:57 WIB" name="TC5_SearchCategorywithdetailproduct" finished-at="2024-09-04T00:25:02 WIB" duration-ms="5441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC5_SearchCategorywithdetailproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:25:02 WIB" name="tearDown" finished-at="2024-09-04T00:25:02 WIB" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Tokopedia.Test.SearchTest -->
-      <class name="Tokopedia.Test.LoginTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:31 WIB" name="launchApplication" finished-at="2024-09-04T00:23:37 WIB" duration-ms="6251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="TC1_validateLoginSuccessFull()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:37 WIB" name="TC1_validateLoginSuccessFull" finished-at="2024-09-04T00:23:40 WIB" duration-ms="2275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1_validateLoginSuccessFull -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:40 WIB" name="tearDown" finished-at="2024-09-04T00:23:40 WIB" duration-ms="200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:40 WIB" name="launchApplication" finished-at="2024-09-04T00:23:43 WIB" duration-ms="3474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="TC2_validateLoginUnsuccessfullwithNOPassword()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:43 WIB" name="TC2_validateLoginUnsuccessfullwithNOPassword" finished-at="2024-09-04T00:23:45 WIB" duration-ms="1278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2_validateLoginUnsuccessfullwithNOPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:45 WIB" name="tearDown" finished-at="2024-09-04T00:23:45 WIB" duration-ms="146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:45 WIB" name="launchApplication" finished-at="2024-09-04T00:23:48 WIB" duration-ms="3434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="TC3_validateLoginUnseccessfullwithinvalidpassword()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:48 WIB" name="TC3_validateLoginUnseccessfullwithinvalidpassword" finished-at="2024-09-04T00:23:50 WIB" duration-ms="2008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC3_validateLoginUnseccessfullwithinvalidpassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:50 WIB" name="tearDown" finished-at="2024-09-04T00:23:50 WIB" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:50 WIB" name="launchApplication" finished-at="2024-09-04T00:23:54 WIB" duration-ms="3495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="TC4_validateLoginUnseccessfullwithinvalidemail()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:54 WIB" name="TC4_validateLoginUnseccessfullwithinvalidemail" finished-at="2024-09-04T00:23:55 WIB" duration-ms="1204" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="TC5_SearchCategorywithdetailproduct()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:42:55 WIB" name="TC5_SearchCategorywithdetailproduct" finished-at="2024-09-04T00:43:05 WIB" duration-ms="10143" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Element must be set]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:86)
-at org.junit.Assert.assertTrue(Assert.java:41)
-at org.junit.Assert.assertTrue(Assert.java:52)
-at Tokopedia.Test.LoginTest.TC4_validateLoginUnseccessfullwithinvalidemail(LoginTest.java:53)
+              <![CDATA[java.lang.IllegalArgumentException: Element must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:61)
+at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:277)
+at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:351)
+at org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:330)
+at Tokopedia.PageObjects.LandingPage.goSearchProductnameCategory(LandingPage.java:102)
+at Tokopedia.Test.SearchTest.TC5_SearchCategorywithdetailproduct(SearchTest.java:46)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -150,73 +105,258 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_SearchCategorywithdetailproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.SearchTest@b62fe6d]" started-at="2024-09-04T00:43:05 WIB" name="tearDown" finished-at="2024-09-04T00:43:05 WIB" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tokopedia.Test.SearchTest -->
+      <class name="Tokopedia.Test.LoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:26 WIB" name="launchApplication" finished-at="2024-09-04T00:41:31 WIB" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC1_validateLoginSuccessFull()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:31 WIB" name="TC1_validateLoginSuccessFull" finished-at="2024-09-04T00:41:31 WIB" duration-ms="6" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+
+at Tokopedia.Test.LoginTest.TC1_validateLoginSuccessFull(LoginTest.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_validateLoginSuccessFull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:31 WIB" name="tearDown" finished-at="2024-09-04T00:41:31 WIB" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:31 WIB" name="launchApplication" finished-at="2024-09-04T00:41:35 WIB" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC2_validateLoginUnsuccessfullwithNOPassword()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:35 WIB" name="TC2_validateLoginUnsuccessfullwithNOPassword" finished-at="2024-09-04T00:41:35 WIB" duration-ms="2" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+
+at Tokopedia.Test.LoginTest.TC2_validateLoginUnsuccessfullwithNOPassword(LoginTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_validateLoginUnsuccessfullwithNOPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:35 WIB" name="tearDown" finished-at="2024-09-04T00:41:35 WIB" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:35 WIB" name="launchApplication" finished-at="2024-09-04T00:41:38 WIB" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC3_validateLoginUnseccessfullwithinvalidpassword()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:38 WIB" name="TC3_validateLoginUnseccessfullwithinvalidpassword" finished-at="2024-09-04T00:41:38 WIB" duration-ms="0" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Unhandled exception type InterruptedException
+
+at Tokopedia.Test.LoginTest.TC3_validateLoginUnseccessfullwithinvalidpassword(LoginTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_validateLoginUnseccessfullwithinvalidpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:38 WIB" name="tearDown" finished-at="2024-09-04T00:41:39 WIB" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:39 WIB" name="launchApplication" finished-at="2024-09-04T00:41:42 WIB" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC4_validateLoginUnseccessfullwithinvalidemail()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:42 WIB" name="TC4_validateLoginUnseccessfullwithinvalidemail" finished-at="2024-09-04T00:41:46 WIB" duration-ms="3839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_validateLoginUnseccessfullwithinvalidemail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:23:55 WIB" name="tearDown" finished-at="2024-09-04T00:23:55 WIB" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.LoginTest@240237d2]" started-at="2024-09-04T00:41:46 WIB" name="tearDown" finished-at="2024-09-04T00:41:46 WIB" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tokopedia.Test.LoginTest -->
       <class name="Tokopedia.Test.RegistrationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:23:55 WIB" name="launchApplication" finished-at="2024-09-04T00:23:59 WIB" duration-ms="3478" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:46 WIB" name="launchApplication" finished-at="2024-09-04T00:41:50 WIB" duration-ms="3899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateRegistration()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:23:59 WIB" name="validateRegistration" finished-at="2024-09-04T00:24:02 WIB" duration-ms="3636" status="PASS">
+        <test-method signature="validateRegistration()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:50 WIB" name="validateRegistration" finished-at="2024-09-04T00:41:54 WIB" duration-ms="3692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:02 WIB" name="tearDown" finished-at="2024-09-04T00:24:03 WIB" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:54 WIB" name="tearDown" finished-at="2024-09-04T00:41:54 WIB" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:03 WIB" name="launchApplication" finished-at="2024-09-04T00:24:06 WIB" duration-ms="3554" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:54 WIB" name="launchApplication" finished-at="2024-09-04T00:41:57 WIB" duration-ms="3627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateRegistrationEmailorPhoneNull()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:06 WIB" name="validateRegistrationEmailorPhoneNull" finished-at="2024-09-04T00:24:07 WIB" duration-ms="1352" status="PASS">
+        <test-method signature="validateRegistrationEmailorPhoneNull()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:57 WIB" name="validateRegistrationEmailorPhoneNull" finished-at="2024-09-04T00:41:59 WIB" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistrationEmailorPhoneNull -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:07 WIB" name="tearDown" finished-at="2024-09-04T00:24:08 WIB" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:59 WIB" name="tearDown" finished-at="2024-09-04T00:41:59 WIB" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:08 WIB" name="launchApplication" finished-at="2024-09-04T00:24:11 WIB" duration-ms="3877" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:41:59 WIB" name="launchApplication" finished-at="2024-09-04T00:42:02 WIB" duration-ms="3570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateRegistrationinvalidEmail()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:11 WIB" name="validateRegistrationinvalidEmail" finished-at="2024-09-04T00:24:13 WIB" duration-ms="1715" status="PASS">
+        <test-method signature="validateRegistrationinvalidEmail()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:02 WIB" name="validateRegistrationinvalidEmail" finished-at="2024-09-04T00:42:04 WIB" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistrationinvalidEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:13 WIB" name="tearDown" finished-at="2024-09-04T00:24:13 WIB" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:04 WIB" name="tearDown" finished-at="2024-09-04T00:42:04 WIB" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:13 WIB" name="launchApplication" finished-at="2024-09-04T00:24:17 WIB" duration-ms="3548" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:04 WIB" name="launchApplication" finished-at="2024-09-04T00:42:11 WIB" duration-ms="6986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateRegistrationinvalidphonenumbertolong()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:17 WIB" name="validateRegistrationinvalidphonenumbertolong" finished-at="2024-09-04T00:24:18 WIB" duration-ms="1317" status="PASS">
+        <test-method signature="validateRegistrationinvalidphonenumbertolong()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:11 WIB" name="validateRegistrationinvalidphonenumbertolong" finished-at="2024-09-04T00:42:13 WIB" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistrationinvalidphonenumbertolong -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:18 WIB" name="tearDown" finished-at="2024-09-04T00:24:18 WIB" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:13 WIB" name="tearDown" finished-at="2024-09-04T00:42:13 WIB" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:18 WIB" name="launchApplication" finished-at="2024-09-04T00:24:22 WIB" duration-ms="3497" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:13 WIB" name="launchApplication" finished-at="2024-09-04T00:42:17 WIB" duration-ms="4488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateRegistrationinvalidphonenumbertoshort()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:22 WIB" name="validateRegistrationinvalidphonenumbertoshort" finished-at="2024-09-04T00:24:23 WIB" duration-ms="1461" status="PASS">
+        <test-method signature="validateRegistrationinvalidphonenumbertoshort()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:17 WIB" name="validateRegistrationinvalidphonenumbertoshort" finished-at="2024-09-04T00:42:19 WIB" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistrationinvalidphonenumbertoshort -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:24:23 WIB" name="tearDown" finished-at="2024-09-04T00:24:23 WIB" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tokopedia.Test.RegistrationTest@3c153a1]" started-at="2024-09-04T00:42:19 WIB" name="tearDown" finished-at="2024-09-04T00:42:19 WIB" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

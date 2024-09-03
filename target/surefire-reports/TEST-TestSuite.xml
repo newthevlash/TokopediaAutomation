@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="91.862" tests="14" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="99.608" tests="14" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire8242720628580597125\surefirebooter7302899706151424262.jar C:\Users\User\AppData\Local\Temp\surefire8242720628580597125 2024-09-04T00-23-30_537-jvmRun1 surefire10943387218714452515tmp surefire_012495914929020038128tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire734364817756868169\surefirebooter10488403184780092682.jar C:\Users\User\AppData\Local\Temp\surefire734364817756868169 2024-09-04T00-41-25_819-jvmRun1 surefire10207480222858919266tmp surefire_016614827848386660326tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\User\GitAutomation\Tokopedia\target\test-classes;C:\Users\User\GitAutomation\Tokopedia\target\classes;C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\User\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\User\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\User\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\User\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\User\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire8242720628580597125\surefirebooter7302899706151424262.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire734364817756868169\surefirebooter10488403184780092682.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -58,14 +58,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="TC1_validateLoginSuccessFull" classname="Tokopedia.Test.LoginTest" time="2.277"/>
-  <testcase name="TC2_validateLoginUnsuccessfullwithNOPassword" classname="Tokopedia.Test.LoginTest" time="1.278"/>
-  <testcase name="TC3_validateLoginUnseccessfullwithinvalidpassword" classname="Tokopedia.Test.LoginTest" time="2.007"/>
-  <testcase name="TC4_validateLoginUnseccessfullwithinvalidemail" classname="Tokopedia.Test.LoginTest" time="1.21">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at Tokopedia.Test.LoginTest.TC4_validateLoginUnseccessfullwithinvalidemail(LoginTest.java:53)
+  <testcase name="TC1_validateLoginSuccessFull" classname="Tokopedia.Test.LoginTest" time="0.022">
+    <failure message="Unresolved compilation problem: &#10;	Unhandled exception type InterruptedException&#10;" type="java.lang.Error">java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC1_validateLoginSuccessFull(LoginTest.java:16)
 </failure>
-    <system-err><![CDATA[Sep 04, 2024 12:23:50 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 04, 2024 12:41:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
+  <testcase name="TC2_validateLoginUnsuccessfullwithNOPassword" classname="Tokopedia.Test.LoginTest" time="0.002">
+    <failure message="Unresolved compilation problem: &#10;	Unhandled exception type InterruptedException&#10;" type="java.lang.Error">java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC2_validateLoginUnsuccessfullwithNOPassword(LoginTest.java:28)
+</failure>
+    <system-err><![CDATA[Sep 04, 2024 12:41:31 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
@@ -84,18 +98,56 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
 
-Sep 04, 2024 12:23:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 04, 2024 12:41:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="validateRegistration" classname="Tokopedia.Test.RegistrationTest" time="3.636"/>
-  <testcase name="validateRegistrationEmailorPhoneNull" classname="Tokopedia.Test.RegistrationTest" time="1.353"/>
-  <testcase name="validateRegistrationinvalidEmail" classname="Tokopedia.Test.RegistrationTest" time="1.715"/>
-  <testcase name="validateRegistrationinvalidphonenumbertolong" classname="Tokopedia.Test.RegistrationTest" time="1.318"/>
-  <testcase name="validateRegistrationinvalidphonenumbertoshort" classname="Tokopedia.Test.RegistrationTest" time="1.461"/>
-  <testcase name="TC1_searchvalidProduct" classname="Tokopedia.Test.SearchTest" time="2.606"/>
-  <testcase name="TC2_searchinvalidProduct" classname="Tokopedia.Test.SearchTest" time="2.657"/>
-  <testcase name="TC3_Searchproductwithcategory" classname="Tokopedia.Test.SearchTest" time="4.464"/>
-  <testcase name="TC4_Searchproductwithsubcategoty" classname="Tokopedia.Test.SearchTest" time="5.162"/>
-  <testcase name="TC5_SearchCategorywithdetailproduct" classname="Tokopedia.Test.SearchTest" time="5.441"/>
+  <testcase name="TC3_validateLoginUnseccessfullwithinvalidpassword" classname="Tokopedia.Test.LoginTest" time="0.001">
+    <failure message="Unresolved compilation problem: &#10;	Unhandled exception type InterruptedException&#10;" type="java.lang.Error">java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+
+	at Tokopedia.Test.LoginTest.TC3_validateLoginUnseccessfullwithinvalidpassword(LoginTest.java:39)
+</failure>
+    <system-err><![CDATA[Sep 04, 2024 12:41:35 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+
+Sep 04, 2024 12:41:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
+  <testcase name="TC4_validateLoginUnseccessfullwithinvalidemail" classname="Tokopedia.Test.LoginTest" time="3.838"/>
+  <testcase name="validateRegistration" classname="Tokopedia.Test.RegistrationTest" time="3.692"/>
+  <testcase name="validateRegistrationEmailorPhoneNull" classname="Tokopedia.Test.RegistrationTest" time="1.362"/>
+  <testcase name="validateRegistrationinvalidEmail" classname="Tokopedia.Test.RegistrationTest" time="1.393"/>
+  <testcase name="validateRegistrationinvalidphonenumbertolong" classname="Tokopedia.Test.RegistrationTest" time="1.916"/>
+  <testcase name="validateRegistrationinvalidphonenumbertoshort" classname="Tokopedia.Test.RegistrationTest" time="1.532"/>
+  <testcase name="TC1_searchvalidProduct" classname="Tokopedia.Test.SearchTest" time="3.005"/>
+  <testcase name="TC2_searchinvalidProduct" classname="Tokopedia.Test.SearchTest" time="3.115"/>
+  <testcase name="TC3_Searchproductwithcategory" classname="Tokopedia.Test.SearchTest" time="4.742"/>
+  <testcase name="TC4_Searchproductwithsubcategoty" classname="Tokopedia.Test.SearchTest" time="5.438"/>
+  <testcase name="TC5_SearchCategorywithdetailproduct" classname="Tokopedia.Test.SearchTest" time="10.143">
+    <failure message="Element must be set" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Element must be set
+	at Tokopedia.Test.SearchTest.TC5_SearchCategorywithdetailproduct(SearchTest.java:46)
+</failure>
+    <system-err><![CDATA[Sep 04, 2024 12:42:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
 </testsuite>

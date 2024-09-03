@@ -44,11 +44,12 @@ public class LoginTest extends BaseTest{
 	}
 	
 	@Test
-	public void TC4_validateLoginUnseccessfullwithinvalidemail()
+	public void TC4_validateLoginUnseccessfullwithinvalidemail() throws InterruptedException
 	{
 		LoginPage loginPage = landingPage.goLogin();
 		loginPage.enterEmailorPhone("emailcobacoba@gmail.com");
 		loginPage.click_btnSelanjutnya();
+		Thread.sleep(3000);
 		boolean message = loginPage.verifyemailinvalidornotregister();
 		Assert.assertTrue(message);
 	}

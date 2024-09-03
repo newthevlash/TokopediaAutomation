@@ -3,11 +3,20 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="Tokopedia.Test.LoginTest">
+      <class name="Tokopedia.Test.SearchTest">
         <methods>
           <include name="tearDown"/>
-          <include name="TC4_validateLoginUnseccessfullwithinvalidemail"/>
           <include name="launchApplication"/>
+          <include name="TC5_SearchCategorywithdetailproduct"/>
+        </methods>
+      </class> <!-- Tokopedia.Test.SearchTest -->
+      <class name="Tokopedia.Test.LoginTest">
+        <methods>
+          <include name="TC3_validateLoginUnseccessfullwithinvalidpassword"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="TC2_validateLoginUnsuccessfullwithNOPassword"/>
+          <include name="TC1_validateLoginSuccessFull"/>
         </methods>
       </class> <!-- Tokopedia.Test.LoginTest -->
     </classes>
